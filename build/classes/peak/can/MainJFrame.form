@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroupFilter">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroupMessageShowType">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelFilter" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanelReadMessage" max="32767" attributes="0"/>
+          <Component id="jPanelWriteMessage" max="32767" attributes="0"/>
+          <Component id="jPanelReplay" max="32767" attributes="0"/>
+          <Component id="jPanelDoS" max="32767" attributes="0"/>
+          <Component id="jPanelFuzz" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Component id="jPanelCarInfo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanelInfo" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanelCarInfo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelFilter" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelReadMessage" min="-2" pref="259" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelWriteMessage" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelReplay" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelDoS" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelFuzz" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelInfo" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelCarInfo">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Connect"/>
+          </Border>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="connect"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jButtonConnect" min="-2" pref="149" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jButtonUnconnect" min="-2" pref="156" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="jButtonStart" min="-2" pref="135" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="jButtonPause" min="-2" pref="143" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButtonTuopu" min="-2" pref="141" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jComboBoxBrand" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                              <Component id="jLabelBrand" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jComboBoxModel" min="-2" pref="102" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabelModel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jComboBoxBaudrate" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                              <Component id="jLabelBaudrate" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelDBCPath" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextFieldDBCPath" min="-2" pref="261" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="jButtonLoadBDC" min="-2" pref="113" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="24" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabelModel" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabelBrand" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabelBaudrate" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabelDBCPath" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButtonLoadBDC" pref="0" max="32767" attributes="0"/>
+                      <Component id="jComboBoxBrand" max="32767" attributes="0"/>
+                      <Component id="jComboBoxModel" max="32767" attributes="0"/>
+                      <Component id="jComboBoxBaudrate" max="32767" attributes="0"/>
+                      <Component id="jTextFieldDBCPath" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                      <Component id="jButtonUnconnect" alignment="3" max="32767" attributes="0"/>
+                      <Component id="jButtonConnect" alignment="3" max="32767" attributes="0"/>
+                      <Component id="jButtonStart" alignment="3" max="32767" attributes="0"/>
+                      <Component id="jButtonPause" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonTuopu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="jComboBoxBrand">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxBrandActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxModel">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxBaudrate">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="6">
+                <StringItem index="0" value="1000kbps"/>
+                <StringItem index="1" value="800kbps"/>
+                <StringItem index="2" value="500kbps"/>
+                <StringItem index="3" value="250kbps"/>
+                <StringItem index="4" value="125kbps"/>
+                <StringItem index="5" value="50kbps"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxBaudrateActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelBrand">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x54c1;&#x724c;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelModel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x578b;&#x53f7;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelBaudrate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6ce2;&#x7279;&#x7387;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDBCPath">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelDBCPath">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x8f66;&#x578b;&#x534f;&#x8bae;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonLoadBDC">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x8f7d;&#x5165;..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonConnect">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x8fde;&#x63a5;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonConnectActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonUnconnect">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x65ad;&#x5f00;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonUnconnectActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonStart">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5f00;&#x59cb;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonStartActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonPause">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6682;&#x505c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPauseActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonTuopu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62d3;&#x6251;&#x63a2;&#x6d4b;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelFilter">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Filter"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jCheckBoxExtendFileter" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jRadioButtonOpenFilter" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="jRadioButtonCloseFilter" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jRadioButtonCustomFilter" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="jLabelFilterFrom" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextFieldFilterFrom" min="-2" pref="78" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabelFilterTo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextFieldFilterTo" min="-2" pref="79" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jButtonAddFilter" min="-2" pref="66" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jButtonFilterList" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jCheckBoxExtendFileter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRadioButtonOpenFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRadioButtonCloseFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jRadioButtonCustomFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelFilterFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldFilterFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelFilterTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldFilterTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonAddFilter" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonFilterList" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JCheckBox" name="jCheckBoxExtendFileter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6269;&#x5c55;&#x5e27;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxExtendFileterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRadioButtonOpenFilter">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroupFilter"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x6253;&#x5f00;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonOpenFilterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRadioButtonCloseFilter">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroupFilter"/>
+            </Property>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="&#x5173;&#x95ed;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonCloseFilterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRadioButtonCustomFilter">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroupFilter"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x81ea;&#x5b9a;&#x4e49;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonCustomFilterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFilterFrom">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4ece;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFilterFrom">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFilterTo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5230;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFilterTo">
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonAddFilter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6dfb;&#x52a0;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAddFilterActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonFilterList">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x8fc7;&#x6ee4;&#x5217;&#x8868;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelReadMessage">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Read Message"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jRadioButtonDisplayByTime" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jRadioButtonDispalyByCount" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jCheckBoxShowTimeStamp" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jButtonClearTable" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jRadioButtonDisplayByTime" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jRadioButtonDispalyByCount" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jCheckBoxShowTimeStamp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonClearTable" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="199" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JRadioButton" name="jRadioButtonDisplayByTime">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroupMessageShowType"/>
+            </Property>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="&#x987a;&#x5e8f;&#x6a21;&#x5f0f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonDisplayByTimeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jRadioButtonDispalyByCount">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroupMessageShowType"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x7edf;&#x8ba1;&#x6a21;&#x5f0f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButtonDispalyByCountActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCheckBoxShowTimeStamp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x663e;&#x793a;&#x65f6;&#x95f4;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxShowTimeStampActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonClearTable">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6e05;&#x9664;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonClearTableActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTableMessage">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="6" rowCount="0">
+                    <Column editable="false" title="Type" type="java.lang.String"/>
+                    <Column editable="false" title="ID" type="java.lang.String"/>
+                    <Column editable="false" title="Length" type="java.lang.String"/>
+                    <Column editable="false" title="Data" type="java.lang.Object"/>
+                    <Column editable="true" title="Count" type="java.lang.String"/>
+                    <Column editable="false" title="RcvTime" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="showHorizontalLines" type="boolean" value="false"/>
+                <Property name="showVerticalLines" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelWriteMessage">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Write Message"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelID" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldWriteID" min="-2" pref="79" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jCheckBoxWriteExtend" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="jLabelInterval" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabelData" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Component id="jTextFieldData0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jTextFieldWriteInterval" min="-2" pref="65" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabelms" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="jLabelTimes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldWriteTimes" min="-2" pref="77" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="jButtonSend" min="-2" pref="169" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="jTextFieldData1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData6" min="-2" pref="26" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldData7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="jLabelLength" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Component id="jTextFieldWriteLen" min="-2" pref="93" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldWriteID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldData7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldWriteLen" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jCheckBoxWriteExtend" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelInterval" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldWriteInterval" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelms" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelTimes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldWriteTimes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonSend" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID(Hex)&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldWriteID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data(Hex)&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData0">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldData7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldWriteLen">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="8"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCheckBoxWriteExtend">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6269;&#x5c55;&#x5e27;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelInterval">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x53d1;&#x9001;&#x95f4;&#x9694;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldWriteInterval">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelms">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ms"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelTimes">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x53d1;&#x9001;&#x6b21;&#x6570;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldWriteTimes">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSend">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x53d1;&#x9001;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSendActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelReplay">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Replay"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jButtonSaveFile" min="-2" pref="109" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jTextFieldReplayFilePath" min="-2" pref="257" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButtonLoadFile" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="jLabelRepalyFrom" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Component id="jTextFieldReplayFrom" min="-2" pref="59" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelReplayTo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextFieldReplayTo" min="-2" pref="62" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jButtonReplay" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonSaveFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldReplayFilePath" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonLoadFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelRepalyFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldReplayFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelReplayTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldReplayTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonReplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButtonSaveFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5b9e;&#x65f6;&#x4fdd;&#x5b58;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSaveFileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldReplayFilePath">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonLoadFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6253;&#x5f00;..."/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonLoadFileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelRepalyFrom">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4ece;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldReplayFrom">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelReplayTo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5230;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldReplayTo">
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonReplay">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x91cd;&#x653e;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelDoS">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="DoS"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jLabelDosID" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextFieldDosID" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="jLabelDosData" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTextFieldDosData" min="-2" pref="171" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="jButtonDos" min="-2" pref="127" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jButtonDosStop" min="-2" pref="128" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelDosID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDosID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelDosData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDosData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonDos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonDosStop" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelDosID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID(Hex)&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDosID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelDosData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data(Hex)&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDosData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00 00 00 00 00 00 00 00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonDos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DoS&#x6d4b;&#x8bd5;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonDosStop">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x505c;&#x6b62;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDosStopActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelFuzz">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Fuzz"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelFuzzID" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldFuzzID" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabelFuzzStartData" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldFuzzData" min="-2" pref="171" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelFuzzID1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldFuzzUDSFrom" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabelFuzzID2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Component id="jTextFieldFuzzUDSTo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButtonFuzz" pref="101" max="32767" attributes="0"/>
+                      <Component id="jButtonFuzzUDS" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jButtonFuzzStop" min="-2" pref="136" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelFuzzStartData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldFuzzData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelFuzzID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldFuzzID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonFuzz" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelFuzzID1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldFuzzUDSFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelFuzzID2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldFuzzUDSTo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jButtonFuzzUDS" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jButtonFuzzStop" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelFuzzID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID(Hex)&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFuzzID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFuzzData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00 00 00 00 00 00 00 00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFuzzStartData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Start Data&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFuzzID1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID From&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFuzzUDSFrom">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00000000"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFuzzID2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID To&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFuzzUDSTo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="00000000"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonFuzz">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fuzz Data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonFuzzUDS">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fuzz UDS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonFuzzStop">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x505c;&#x6b62;"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="8e" green="39" red="28" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Data Fuzz :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="8e" green="39" red="28" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="UDS Discovery:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelInfo">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Info"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane2" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" pref="31" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextAreaInfo">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
